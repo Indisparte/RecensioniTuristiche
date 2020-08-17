@@ -1,0 +1,79 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.button{
+	-fx-font-weight: bold;
+	-fx-background-color: #91949F ;
+	-fx-background-radius: 20;
+	-fx-font-size: 16;
+	-fx-text-fill: black;
+		
+}
+
+
+.button:hover{
+	-fx-font-weight: bold;
+	-fx-background-color: #7B708B;
+	-fx-border-color: #7B708B;
+	-fx-background-radius: 20;
+	-fx-border-radius: 20;
+	-fx-font-size: 16;
+	-fx-text-fill: white;
+	-fx-border-width: 2px;
+			
+}
+
+.button-enter{
+	-fx-font-weight: bold;
+	-fx-background-color: #7B708B;
+	-fx-background-radius: 20;
+	-fx-font-size: 12;
+	-fx-text-fill: #F3F2F0;
+		
+}
+
+
+.button-enter:hover{
+	-fx-font-weight: bold;
+	-fx-background-color: #91949F;
+	-fx-border-color: #91949F;
+	-fx-background-radius: 20;
+	-fx-border-radius: 20;
+	-fx-font-size: 12;
+	-fx-text-fill: #F3F2F0;
+	-fx-border-width: 2px;
+			
+}
+
+.button-aggiungi{
+	-fx-font-weight: bold;
+	-fx-background-color: transparent ;
+	-fx-border-color: transparent ;
+	-fx-font-size: 12;
+	-fx-text-fill: white;
+}
+
+.button-aggiungi:hover{
+	-fx-font-weight: bold;
+	-fx-background-color: #F3F2F0;
+	-fx-border-color: #F3F2F0;
+	-fx-background-radius: 20;
+	-fx-border-radius: 20;
+	-fx-font-size: 12;
+	-fx-text-fill: black;
+	-fx-border-width: 2px;
+}
+
+.pane{
+	-fx-background-radius: 20;
+	-fx-background-color: #787992;
+	-fx-border-color: #787992;
+	-fx-border-radius: 20;
+}
+
+.searchBar{
+	-fx-background-color: #F3F2F0;
+	-fx-border-color: #F3F2F0;
+	-fx-border-radius: 10;
+	-fx-background-radius: 10;
+	
+}
